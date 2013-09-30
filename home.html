@@ -19,12 +19,13 @@
                     <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
                     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 
-					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
-					<script src="javascript/jquery.localscroll.js" type="text/javascript"></script> 
-					<script src="javascript/jquery.scrollTo.js" type="text/javascript"></script> 
+
 					<link href="css/lightbox.css" rel="stylesheet" />
 					<script src="js/jquery-1.10.2.min.js"></script>
 					<script src="js/lightbox-2.6.min.js"></script>
+					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+					<script src="javascript/jquery.localscroll.js" type="text/javascript"></script> 
+					<script src="javascript/jquery.scrollTo.js" type="text/javascript"></script> 
 					<script type="text/javascript">
 						$(document).ready(function() {
 							$('#nav').localScroll({duration:800});
@@ -35,6 +36,7 @@
                         <body class="home">
                         <div id="nav" class="nav">
                         <ul>
+                        	<li><a href="#home" class="ross">Ross Tang Him</a></li>
 							<li><a href="#home">Home</a></li>
 							<li><a href="#projects">Projects</a></li>
 							<li><a href="#about">About Me</a></li>
@@ -46,16 +48,56 @@
                         
                         <div class="page" id="home">
                         	<div class = "page_container">
-							<h1><a>Welcome</a></h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. </p>
+<!-- 							<h1><a>Welcome</a></h1> -->
+							<ul>
+								<li><img src="images/profile_picture.jpeg" class="profile"></li>
+								<li><h1>Hello there</h1><p>My name is Robert Ross Tang Him, but you can call me Ross. I am a senior at Boston University majoring in computer science. I've developed a few iOS apps already, but I am always excited to learn different things and take on new challenges. I am especially interested in UI/UX design.</p></li>
+
+
+							</ul>
                         	</div>
 						</div>
 						
 						<div class="page" id="projects">
 							<div class = "page_container">
-							<h1><a>Projects</a></h1>
-							<h2>BU Transit</h2>
-							<p></p>
+							<h1>Projects</h1>
+
+							<ul class="projects">
+								<div class="project">
+								<li>
+									<ul class="project_photos">
+										<li><a href="images/bu_transit_1.png" data-lightbox="projects" title="BU Transit"><img src="images/bu_transit_1.png" ></a></li>
+										<li><a href="images/bu_transit_2.png" data-lightbox="projects" title="BU Transit"><img src="images/bu_transit_2.png" ></a></li>
+
+									</ul>		
+									<a href="https://itunes.apple.com/us/app/bu-transit/id694426711?ls=1&mt=8"><h2>BU Transit</h2></a>
+									<p>An easy to use app for the BU Shuttle. Check it out on the app store.</p>
+									
+									</li>
+								</div>
+								<div class="project">
+
+								<li>
+									<ul class="project_photos">
+										<li><a href="images/dash_1.png" data-lightbox="projects" title="Dash App"><img src="images/dash_1.png" ></a></li>
+										<li><a href="images/dash_2.png" data-lightbox="projects" title="Dash App"><img src="images/dash_2.png" ></a></li>
+
+									</ul>
+									<a><h2>Dash App</h2></a>
+									<p>A health app for people with hypertension. Bluetooth and server integration. Still under development.</p>
+								</li>
+								</div>
+								<div class="project">
+
+								<li>
+									<ul class="project_photos">
+										<li class="wayfinder"><a href="images/wayfinder.png" data-lightbox="projects" title="Wayfinder"><img src="images/wayfinder.png" class="wayfinder"></a></li>
+									</ul>
+									<a><h2>Wayfinder</h2></a>
+									<p>An iPad app for navigating inside a building. It gives text directions as well as it shows you where to go.</p>
+								</li>
+								</div>
+							</ul>
 							</div>
 						</div>
 						
@@ -65,21 +107,36 @@
                         <div class="page" id="about">
                         	<div class = "page_container">
                         	<div align="center">
-							<h1><a>About Me</a></h1>
-							<p>I am a senior studying computer science at Boston University.</p>
-							<p>My outside interests include:</p>
-							<div class= "yoxview">
+							<h1>About Me</h1>
+							<p>I enjoy working out, cooking, and many other things.</p>
+							<p>But if you're looking for something cool, check these out:</p>
+							<div>
 								<ul class="interests">
-									<li><a href="photography/IMG_0042.JPG" data-lightbox="photograpy" title="My caption">Photography</a>
+									<li><h2>Photography</h2>
 									</li>
-									<a href="photography/IMG_0072.JPG" data-lightbox="photography" title="My caption">image #3</a>
-<a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption">image #4</a>
-<a href="photography/IMG_0079.JPG" data-lightbox="photography" title="My caption">image #4</a>
+									<div class = "photos">
+										<ul>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+										</ul>
+									</div>
 
 
 
-<!-- 									<li><a href="photography/IMG_0042.JPG">Photography</a></li> -->
-									<li><a href="drawing">Drawing</a></li>
+									<li><h2>Drawing</h2></li>
+									<div class = "photos">
+										<ul>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+											<li><a href="photography/IMG_0075.JPG" data-lightbox="photography" title="My caption"><img src="photography/IMG_0075.JPG" height="100" width="100"></a></li>
+										</ul>
+									</div>
+
 								</ul>
 							</div>
                         	</div>
