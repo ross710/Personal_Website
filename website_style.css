@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	width: 100%;
 	margin: 0;
 }
 html{
@@ -31,7 +32,7 @@ img {
 h1 {
 	text-align: center;
 
-	font-size: 60px;
+	font-size: 3.0em;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -68,7 +69,8 @@ div.nav{
 	margin: 0;
 	font-family: 'Roboto Slab', serif;
 /* 	text-transform:uppercase; */
-	font-size:20px;
+/* 	font-size:1.2em; */
+	font-size:120%;
 	text-align: right;
 }
 
@@ -108,7 +110,17 @@ a{
 div.nav li a{
 	border-bottom: solid transparent;
 }
+#projects table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+	
+}
 
+#projects table td, th {
+	text-align: center;
+	width: 33%;
+}
 #home {
 	background: url('images/blue_background.jpg');
   	background-repeat:repeat;	
@@ -127,7 +139,7 @@ div.nav li a{
 }
 
 #home p {
-	font-size: 24px;
+	font-size: 1.4em;
 }
 #projects {
 	background: url('images/yellow_background.jpg');
@@ -157,7 +169,7 @@ div.nav li a{
 }
 
 #projects li.wayfinder img{
-	width: 60%;
+	width: 90%;
 }
 
 #about h1{
