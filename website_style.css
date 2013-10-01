@@ -69,8 +69,8 @@ div.nav{
 	margin: 0;
 	font-family: 'Roboto Slab', serif;
 /* 	text-transform:uppercase; */
-/* 	font-size:1.2em; */
-	font-size:120%;
+	font-size:1.2em;
+/* 	font-size:120%; */
 	text-align: right;
 }
 
